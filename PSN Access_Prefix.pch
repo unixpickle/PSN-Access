@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PSN Access' target in the 'PSN Access' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

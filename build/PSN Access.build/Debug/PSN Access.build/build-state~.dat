@@ -1,0 +1,145 @@
+TPSN Access
+v7
+r0
+t317085631.641205
+cCheck dependencies
+cProcessPCH "/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-gxgmsixogwmcjvdxuexgrwfcynwm/PSN Access_Prefix.pch.gch" "PSN Access_Prefix.pch" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSN Access.o" "/Users/alex/Desktop/PSN Access/PSN Access.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSNAccess.o" "/Users/alex/Desktop/PSN Access/PSNAccess.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/alex/Desktop/PSN Access/build/Debug/PSN Access" normal x86_64
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD605D10000000000B3E910
+t1289094609
+s11790608
+
+N/Users/alex/Desktop/PSN Access/PSN Access.m
+c000000004D36203B000000000000018C
+t1295392827
+s396
+i<Foundation/Foundation.h>
+i"PSNAccess.h"
+
+N/Users/alex/Desktop/PSN Access/PSN Access_Prefix.pch
+c000000004D361E8500000000000000A2
+t1295392389
+s162
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/PSN Access/PSNAccess.c
+c000000004D361E9E00000000000000A7
+t1295392414
+s167
+i"PSNAccess.h"
+
+N/Users/alex/Desktop/PSN Access/PSNAccess.h
+c000000004D36201300000000000005B7
+t1295392787
+s1463
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/PSN Access/PSNAccess.m
+c000000004D362022000000000000187A
+t1295392802
+s6266
+i"PSNAccess.h"
+
+N/Users/alex/Desktop/PSN Access/build/Debug/PSN Access
+t1295392831
+s22720
+
+N/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSN Access.LinkFileList
+c000000004D36203C00000000000000DF
+t1295392828
+s223
+
+N/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSN Access.o
+t1295392831
+s7648
+
+N/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSNAccess.o
+t1295392831
+s34360
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-dheajofkctevnhgokuzljibsukwa/PSN Access_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-gxgmsixogwmcjvdxuexgrwfcynwm/PSN Access_Prefix.pch.gch
+t1295392831
+s41442064
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317085628#317085628#0(0"0(0#1#0"8613865952#0"0#
+
+CCompileC "build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSN Access.o" "/Users/alex/Desktop/PSN Access/PSN Access.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317085631.452433
+e317085631.587243
+r1
+xCompileC
+xbuild/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSN Access.o
+x/Users/alex/Desktop/PSN Access/PSN Access.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/PSN Access/PSN Access.m: In function 'main':
+o/Users/alex/Desktop/PSN Access/PSN Access.m:9: warning: 'writeToFile:atomically:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)
+o/Users/alex/Desktop/PSN Access/PSN Access.m:10: warning: unused variable 'games'
+lSLF07#2@51"Compile /Users/alex/Desktop/PSN Access/PSN Access.m317085631#317085631#0(372"/Users/alex/Desktop/PSN Access/PSN Access.m: In function 'main':/Users/alex/Desktop/PSN Access/PSN Access.m:9: warning: 'writeToFile:atomically:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)/Users/alex/Desktop/PSN Access/PSN Access.m:10: warning: unused variable 'games'2(22@169"'writeToFile:atomically:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)317085631#65#226#0(6@43"/Users/alex/Desktop/PSN Access/PSN Access.m317085627#9#0#9#0#33"'*' is deprecated (declared at *)0(22@23"Unused variable 'games'317085631#291#81#0(6@43"/Users/alex/Desktop/PSN Access/PSN Access.m317085627#10#0#10#0#19"unused variable '*'0(0#0#43"/Users/alex/Desktop/PSN Access/PSN Access.m8615740192#1488"    cd "/Users/alex/Desktop/PSN Access"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-generated-files.hmap" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-own-target-headers.hmap" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-all-target-headers.hmap" -iquote "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-project-headers.hmap" "-F/Users/alex/Desktop/PSN Access/build/Debug" "-I/Users/alex/Desktop/PSN Access/build/Debug/include" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/DerivedSources/x86_64" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/DerivedSources" -include "/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-gxgmsixogwmcjvdxuexgrwfcynwm/PSN Access_Prefix.pch" -c "/Users/alex/Desktop/PSN Access/PSN Access.m" -o "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSN Access.o"0#
+
+CCompileC "build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSNAccess.o" "/Users/alex/Desktop/PSN Access/PSNAccess.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSNAccess.o" "/Users/alex/Desktop/PSN Access/PSNAccess.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317085631.453586
+e317085631.620473
+r1
+xCompileC
+xbuild/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSNAccess.o
+x/Users/alex/Desktop/PSN Access/PSNAccess.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/PSN Access/PSNAccess.m: In function 'friendsList':
+o/Users/alex/Desktop/PSN Access/PSNAccess.m:69: warning: control reaches end of non-void function
+lSLF07#2@50"Compile /Users/alex/Desktop/PSN Access/PSNAccess.m317085631#317085631#0(168"/Users/alex/Desktop/PSN Access/PSNAccess.m: In function 'friendsList':/Users/alex/Desktop/PSN Access/PSNAccess.m:69: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function317085631#71#97#0(6@42"/Users/alex/Desktop/PSN Access/PSNAccess.m317085602#69#0#69#0#40"control reaches end of non-void function0(0#0#42"/Users/alex/Desktop/PSN Access/PSNAccess.m8615303232#1486"    cd "/Users/alex/Desktop/PSN Access"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-generated-files.hmap" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-own-target-headers.hmap" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-all-target-headers.hmap" -iquote "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-project-headers.hmap" "-F/Users/alex/Desktop/PSN Access/build/Debug" "-I/Users/alex/Desktop/PSN Access/build/Debug/include" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/DerivedSources/x86_64" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/DerivedSources" -include "/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-gxgmsixogwmcjvdxuexgrwfcynwm/PSN Access_Prefix.pch" -c "/Users/alex/Desktop/PSN Access/PSNAccess.m" -o "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSNAccess.o"0#
+
+CLd "/Users/alex/Desktop/PSN Access/build/Debug/PSN Access" normal x86_64
+s317085631.620563
+e317085631.641155
+r1
+xLd
+x/Users/alex/Desktop/PSN Access/build/Debug/PSN Access
+xnormal
+xx86_64
+lSLF07#2@58"Link /Users/alex/Desktop/PSN Access/build/Debug/PSN Access317085631#317085631#0(0"0(0#0#0"8619197792#532"    cd "/Users/alex/Desktop/PSN Access"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk "-L/Users/alex/Desktop/PSN Access/build/Debug" "-F/Users/alex/Desktop/PSN Access/build/Debug" -filelist "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/Objects-normal/x86_64/PSN Access.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -o "/Users/alex/Desktop/PSN Access/build/Debug/PSN Access"0#
+
+CProcessPCH "/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-dheajofkctevnhgokuzljibsukwa/PSN Access_Prefix.pch.gch" "PSN Access_Prefix.pch" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH "/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-gxgmsixogwmcjvdxuexgrwfcynwm/PSN Access_Prefix.pch.gch" "PSN Access_Prefix.pch" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317085628.987011
+e317085631.452218
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-gxgmsixogwmcjvdxuexgrwfcynwm/PSN Access_Prefix.pch.gch
+xPSN Access_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PSN Access_Prefix.pch317085628#317085631#0(0"0(0#0#52"/Users/alex/Desktop/PSN Access/PSN Access_Prefix.pch8618082304#1385"    cd "/Users/alex/Desktop/PSN Access"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-generated-files.hmap" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-own-target-headers.hmap" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-all-target-headers.hmap" -iquote "/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/PSN Access-project-headers.hmap" "-F/Users/alex/Desktop/PSN Access/build/Debug" "-I/Users/alex/Desktop/PSN Access/build/Debug/include" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/DerivedSources/x86_64" "-I/Users/alex/Desktop/PSN Access/build/PSN Access.build/Debug/PSN Access.build/DerivedSources" -c "/Users/alex/Desktop/PSN Access/PSN Access_Prefix.pch" -o "/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSN Access_Prefix-gxgmsixogwmcjvdxuexgrwfcynwm/PSN Access_Prefix.pch.gch"0#
+

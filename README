@@ -1,0 +1,4 @@
+This is a simple set of functions for accessing your PlayStation Network account.  You provide the PSNLogin() function with your username and password, and it tells you if your login succeeded.  If so, you can get your friends list, and get the current game of anybody on your friends list.  In future additions I am going to add:
+
+ * The ability to check if your friends are "online"
+ * Sign-out function to delete your PSN cookies.
