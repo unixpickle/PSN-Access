@@ -2,3 +2,13 @@ This is a simple set of functions for accessing your PlayStation Network account
 
  * The ability to check if your friends are "online"
  * Sign-out function to delete your PSN cookies.
+
+
+Instructions
+
+1) Put #import "PSNAccess.h" to import the code.
+2) use this code to login: PSNLogin(@"username", @"password")
+3) get your friends list as follows: NSArray * friends = friendsList(fetchFriendList());
+4) get your friends current game like so: NSString * game = friendGame(friendInfo(friend))
+
+With these easy function calls, what you are waiting for?  Instance access to your friends PS3 usage is just a few characters away!
