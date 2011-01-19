@@ -26,6 +26,8 @@ NSString * friendInfo (NSString * username);
 // this would be something like:
 // Call of Duty®: Black ops
 NSString * friendGame (NSString * friendData);
+// delete the cookies associated to the PlayStation Network
+void PSNLogout();
 
 #pragma mark AllCookieFetcher
 

@@ -13,7 +13,7 @@ BOOL PSNLogin (NSString * username, NSString * password) {
 	NSURL * url = [NSURL URLWithString:@"https://store.playstation.com/external/login.action"];
 	NSMutableURLRequest * request = [[NSMutableURLRequest alloc] initWithURL:url];
 	[request setTimeoutInterval:10];
-	NSString * returnURL = @"http://us.playstation.com/uwps/PSNTicketRetrievalGenericServlet";
+	NSString * returnURL = @"http://us.playstation.com/uwps/HandleIFrameRequests";
 	NSString * post = [NSString stringWithFormat:@"&loginName=%@&password=%@&returnURL=%@",
 					   username, password, returnURL];
 	NSString * length = [NSString stringWithFormat:@"%d", [post length]];
@@ -90,7 +90,7 @@ NSString * friendInfo (NSString * username) {
 	NSURL * url = [NSURL URLWithString:urlString];
 	NSMutableURLRequest * request = [[NSMutableURLRequest alloc] initWithURL:url];
 	[request setCachePolicy:NSURLRequestReloadIgnoringCacheData];
-	[request setValue:[NSString stringWithFormat:@"	http://us.playstation.com/playstation/psn/profile/friends?id=0.%d", arc4random()] forHTTPHeaderField:@"Referer"];
+	[request setValue:[NSString stringWithFormat:@"http://us.playstation.com/playstation/psn/profile/friends?id=0.%d", arc4random()] forHTTPHeaderField:@"Referer"];
 	
 	NSURLResponse * response = nil;
 	
@@ -124,6 +124,19 @@ NSString * friendGame (NSString * friendData) {
 	}
 	
 	return game;
+}
+
+void PSNLogout() {
+	// delete all PSN cookies
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	NSMutableArray * a = [NSMutableArray array];
+	for (NSHTTPCookie * c in [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]) {
+		if ([[c domain] rangeOfString:@".playstation.com"].location != NSNotFound) [a addObject:c];
+	}
+	for (id c in a) {
+		[[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:c];
+	}
+	[pool drain];
 }
 
 #pragma mark AllCookieFetcher
